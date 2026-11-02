@@ -1,0 +1,131 @@
+{
+  "status": "PASS",
+  "native_safeguard_checks": 87,
+  "native_boundary_checks": 21,
+  "distinct_terminal_state_systems": 5,
+  "terminal_states_checked": 25,
+  "capacity_perturbation_checks": 300,
+  "maximum_fixed_point_residual": 1.1102230246251565e-16,
+  "maximum_capacity_spectral_radius": 0.998399612605956,
+  "maximum_independent_initial_replay_error": 6.233924487730746e-11,
+  "maximum_local_perturbation_return_error": 6.2382099486058e-11,
+  "identifiability": {
+    "first_eta_q": [
+      0.6,
+      0.5
+    ],
+    "second_eta_q": [
+      0.75,
+      0.4
+    ],
+    "common_composite": 0.3,
+    "periods": 30,
+    "maximum_trajectory_difference": 1.1102230246251565e-16,
+    "inference": "Do not fit eta and q separately without independent justified scale information; other confounding can remain."
+  },
+  "analytic_bistability": {
+    "A": 0.64,
+    "decay": 0.08,
+    "fold_decay": 0.16,
+    "equilibria": [
+      {
+        "capacity": 0.0,
+        "spectral_radius": 0.92,
+        "locally_attracting_capacity_subsystem": true
+      },
+      {
+        "capacity": 0.1464466094067262,
+        "spectral_radius": 1.0662741699796952,
+        "locally_attracting_capacity_subsystem": false
+      },
+      {
+        "capacity": 0.8535533905932737,
+        "spectral_radius": 0.6137258300203049,
+        "locally_attracting_capacity_subsystem": true
+      }
+    ],
+    "scope": "Exact invariant-diagonal equilibria and analytic six-state capacity Jacobian; not full performance-state attraction."
+  },
+  "cross_language_boundary_checks": {
+    "mixed_source_fused": 0.4,
+    "native_fused": 0.4,
+    "initial_below_floor_classes": "GGGGG",
+    "initial_below_floor_protected": false,
+    "first_review_social_cross_language_error": 0.0,
+    "stable_large_validity": 0.5,
+    "stable_tiny_hill": 0.5,
+    "accuracy": {
+      "value": 1.0,
+      "status": "Assessed_InvalidLessonRejectionSensitivity"
+    },
+    "accuracy_without_invalid_lessons": {
+      "value": null,
+      "status": "Unassessed_NoIndependentlyInvalidLessons"
+    },
+    "zero_eta_threshold": {
+      "value": null,
+      "status": "NoPositiveGainAtAnyLearningLevel"
+    },
+    "native_raw_projection_probe_first_component": [
+      1.56820855000872,
+      1,
+      1.32000157696,
+      1
+    ]
+  },
+  "projection_diagnostic_rows": 4,
+  "sampling_stress": [
+    {
+      "sampling_design": "independent_lhs",
+      "draws": 512,
+      "seed": 20261024,
+      "all_reviews_gain": 82,
+      "any_review_gain": 111,
+      "positive_contrast": 497,
+      "index_increase": 191,
+      "protected_horizon": 226,
+      "retained_horizon_gain": 76,
+      "interpretation": "Artificial design stress, not empirical probabilities, priors or prevalence"
+    },
+    {
+      "sampling_design": "positive_rank_q_theta",
+      "draws": 512,
+      "seed": 20261024,
+      "all_reviews_gain": 112,
+      "any_review_gain": 136,
+      "positive_contrast": 486,
+      "index_increase": 208,
+      "protected_horizon": 232,
+      "retained_horizon_gain": 97,
+      "interpretation": "Artificial design stress, not empirical probabilities, priors or prevalence"
+    },
+    {
+      "sampling_design": "negative_rank_q_theta",
+      "draws": 512,
+      "seed": 20261024,
+      "all_reviews_gain": 61,
+      "any_review_gain": 77,
+      "positive_contrast": 504,
+      "index_increase": 177,
+      "protected_horizon": 220,
+      "retained_horizon_gain": 60,
+      "interpretation": "Artificial design stress, not empirical probabilities, priors or prevalence"
+    },
+    {
+      "sampling_design": "coupled_resources",
+      "draws": 512,
+      "seed": 20261024,
+      "all_reviews_gain": 48,
+      "any_review_gain": 54,
+      "positive_contrast": 434,
+      "index_increase": 105,
+      "protected_horizon": 164,
+      "retained_horizon_gain": 44,
+      "interpretation": "Artificial design stress, not empirical probabilities, priors or prevalence"
+    }
+  ],
+  "artificial_design_runs": 2048,
+  "zero_of_59_independent_bernoulli_failures_one_sided_95_upper": 0.049507609888227,
+  "evidence_status": "NotAssessed_IllustrativeSimulation",
+  "interpretation": "Numerical/domain/theory checks only; no measured capacity validation, hazard-coverage validation or independent human authorization."
+}

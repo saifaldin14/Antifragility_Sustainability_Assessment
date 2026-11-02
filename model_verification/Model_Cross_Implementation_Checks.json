@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "draws": 2000,
+  "numeric_comparisons": 8000,
+  "class_sequence_comparisons": 4000,
+  "absolute_tolerance": 1e-12,
+  "horizon_boolean_comparisons": 8000,
+  "exported_columns": 25,
+  "maximum_absolute_difference": 3.3306690738754696e-16,
+  "counts": {
+    "BaboveA": 1924,
+    "BaboveCounterfactual": 1941,
+    "BcapabilityGainEveryYear": 358,
+    "BcapabilityGainAnyYear": 447,
+    "BlevelRises": 757,
+    "AanyFavourable": 0,
+    "BaboveNoiseFreeCounterfactual": 1748,
+    "BprotectedHorizon": 855,
+    "BretainedHorizonGain": 317
+  },
+  "percentages": {
+    "BaboveA": 96.2,
+    "BaboveCounterfactual": 97.1,
+    "BcapabilityGainEveryYear": 17.9,
+    "BcapabilityGainAnyYear": 22.4,
+    "BlevelRises": 37.9,
+    "AanyFavourable": 0.0,
+    "BaboveNoiseFreeCounterfactual": 87.4,
+    "BprotectedHorizon": 42.8,
+    "BretainedHorizonGain": 15.9
+  },
+  "interpretation": "Cross-language numerical reproduction, not independent human validation or empirical prevalence."
+}

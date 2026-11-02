@@ -1,0 +1,76 @@
+item_id,rater1,second_round1,second_final,change,consensus,revision_provenance
+C1-D01,5,5,5,0,,Nonblind; final numeric rating unchanged from initial round; final locator/rationale documented afterwards.
+C1-D02,4,3,3,0,,Nonblind; final numeric rating unchanged from initial round; final locator/rationale documented afterwards.
+C1-D03,5,4,4,0,,Nonblind; final numeric rating unchanged from initial round; final locator/rationale documented afterwards.
+C1-D04,5,4,4,0,,Nonblind; final numeric rating unchanged from initial round; final locator/rationale documented afterwards.
+C1-D05,2,1,1,0,,Nonblind; final numeric rating unchanged from initial round; final locator/rationale documented afterwards.
+C1-D06,6,5,5,0,,Nonblind; final numeric rating unchanged from initial round; final locator/rationale documented afterwards.
+C1-D07,5,4,5,1,,Nonblind; final rating changed after agreement results; final locator/rationale documented afterwards.
+C1-D08,5,4,5,1,,Nonblind; final rating changed after agreement results; final locator/rationale documented afterwards.
+C1-D09,2,1,2,1,,Nonblind; final rating changed after agreement results; final locator/rationale documented afterwards.
+C1-D10,4,4,5,1,,Nonblind; final rating changed after agreement results; final locator/rationale documented afterwards.
+C1-D11,4,4,5,1,,Nonblind; final rating changed after agreement results; final locator/rationale documented afterwards.
+C1-D12,5,4,5,1,,Nonblind; final rating changed after agreement results; final locator/rationale documented afterwards.
+C1-D13,5,4,5,1,,Nonblind; final rating changed after agreement results; final locator/rationale documented afterwards.
+C1-D14,2,2,2,0,,Nonblind; final numeric rating unchanged from initial round; final locator/rationale documented afterwards.
+C1-D15,5,4,3,-1,,Nonblind; final rating changed after agreement results; final locator/rationale documented afterwards.
+C2-D01,4,3,4,1,,Nonblind; final rating changed after agreement results; final locator/rationale documented afterwards.
+C2-D02,4,3,4,1,,Nonblind; final rating changed after agreement results; final locator/rationale documented afterwards.
+C2-D03,4,3,4,1,,Nonblind; final rating changed after agreement results; final locator/rationale documented afterwards.
+C2-D04,4,3,4,1,,Nonblind; final rating changed after agreement results; final locator/rationale documented afterwards.
+C2-D05,3,3,4,1,,Nonblind; final rating changed after agreement results; final locator/rationale documented afterwards.
+C2-D06,4,2,4,2,,Nonblind; final rating changed after agreement results; final locator/rationale documented afterwards.
+C2-D07,3,3,4,1,,Nonblind; final rating changed after agreement results; final locator/rationale documented afterwards.
+C2-D08,3,3,4,1,,Nonblind; final rating changed after agreement results; final locator/rationale documented afterwards.
+C2-D09,3,3,4,1,,Nonblind; final rating changed after agreement results; final locator/rationale documented afterwards.
+C2-D10,3,3,4,1,,Nonblind; final rating changed after agreement results; final locator/rationale documented afterwards.
+C2-D11,4,3,4,1,,Nonblind; final rating changed after agreement results; final locator/rationale documented afterwards.
+C2-D12,4,4,4,0,,Nonblind; final numeric rating unchanged from initial round; final locator/rationale documented afterwards.
+C2-D13,3,4,4,0,,Nonblind; final numeric rating unchanged from initial round; final locator/rationale documented afterwards.
+C2-D14,4,3,4,1,,Nonblind; final rating changed after agreement results; final locator/rationale documented afterwards.
+C2-D15,5,4,4,0,,Nonblind; final numeric rating unchanged from initial round; final locator/rationale documented afterwards.
+C3-D01,3,5,5,0,,Nonblind; final numeric rating unchanged from initial round; final locator/rationale documented afterwards.
+C3-D02,4,2,3,1,,Nonblind; final rating changed after agreement results; final locator/rationale documented afterwards.
+C3-D03,3,3,3,0,,Nonblind; final numeric rating unchanged from initial round; final locator/rationale documented afterwards.
+C3-D04,3,2,3,1,,Nonblind; final rating changed after agreement results; final locator/rationale documented afterwards.
+C3-D05,2,2,3,1,,Nonblind; final rating changed after agreement results; final locator/rationale documented afterwards.
+C3-D06,3,1,2,1,,Nonblind; final rating changed after agreement results; final locator/rationale documented afterwards.
+C3-D07,2,2,2,0,,Nonblind; final numeric rating unchanged from initial round; final locator/rationale documented afterwards.
+C3-D08,3,1,2,1,,Nonblind; final rating changed after agreement results; final locator/rationale documented afterwards.
+C3-D09,3,1,1,0,,Nonblind; final numeric rating unchanged from initial round; final locator/rationale documented afterwards.
+C3-D10,3,3,3,0,,Nonblind; final numeric rating unchanged from initial round; final locator/rationale documented afterwards.
+C3-D11,3,2,2,0,,Nonblind; final numeric rating unchanged from initial round; final locator/rationale documented afterwards.
+C3-D12,3,2,2,0,,Nonblind; final numeric rating unchanged from initial round; final locator/rationale documented afterwards.
+C3-D13,2,3,3,0,,Nonblind; final numeric rating unchanged from initial round; final locator/rationale documented afterwards.
+C3-D14,3,3,3,0,,Nonblind; final numeric rating unchanged from initial round; final locator/rationale documented afterwards.
+C3-D15,4,2,2,0,,Nonblind; final numeric rating unchanged from initial round; final locator/rationale documented afterwards.
+C4-D01,4,3,4,1,,Nonblind; final rating changed after agreement results; final locator/rationale documented afterwards.
+C4-D02,4,3,4,1,,Nonblind; final rating changed after agreement results; final locator/rationale documented afterwards.
+C4-D03,4,4,4,0,,Nonblind; final numeric rating unchanged from initial round; final locator/rationale documented afterwards.
+C4-D04,4,3,4,1,,Nonblind; final rating changed after agreement results; final locator/rationale documented afterwards.
+C4-D05,3,3,3,0,,Nonblind; final numeric rating unchanged from initial round; final locator/rationale documented afterwards.
+C4-D06,5,3,3,0,,Nonblind; final numeric rating unchanged from initial round; final locator/rationale documented afterwards.
+C4-D07,4,3,3,0,,Nonblind; final numeric rating unchanged from initial round; final locator/rationale documented afterwards.
+C4-D08,4,2,3,1,,Nonblind; final rating changed after agreement results; final locator/rationale documented afterwards.
+C4-D09,4,3,3,0,,Nonblind; final numeric rating unchanged from initial round; final locator/rationale documented afterwards.
+C4-D10,4,4,4,0,,Nonblind; final numeric rating unchanged from initial round; final locator/rationale documented afterwards.
+C4-D11,4,3,3,0,,Nonblind; final numeric rating unchanged from initial round; final locator/rationale documented afterwards.
+C4-D12,5,3,3,0,,Nonblind; final numeric rating unchanged from initial round; final locator/rationale documented afterwards.
+C4-D13,4,3,3,0,,Nonblind; final numeric rating unchanged from initial round; final locator/rationale documented afterwards.
+C4-D14,4,3,3,0,,Nonblind; final numeric rating unchanged from initial round; final locator/rationale documented afterwards.
+C4-D15,5,4,4,0,,Nonblind; final numeric rating unchanged from initial round; final locator/rationale documented afterwards.
+C5-D01,5,3,3,0,,Nonblind; final numeric rating unchanged from initial round; final locator/rationale documented afterwards.
+C5-D02,5,3,3,0,,Nonblind; final numeric rating unchanged from initial round; final locator/rationale documented afterwards.
+C5-D03,5,4,4,0,,Nonblind; final numeric rating unchanged from initial round; final locator/rationale documented afterwards.
+C5-D04,5,4,4,0,,Nonblind; final numeric rating unchanged from initial round; final locator/rationale documented afterwards.
+C5-D05,4,4,4,0,,Nonblind; final numeric rating unchanged from initial round; final locator/rationale documented afterwards.
+C5-D06,5,4,4,0,,Nonblind; final numeric rating unchanged from initial round; final locator/rationale documented afterwards.
+C5-D07,5,4,4,0,,Nonblind; final numeric rating unchanged from initial round; final locator/rationale documented afterwards.
+C5-D08,5,4,4,0,,Nonblind; final numeric rating unchanged from initial round; final locator/rationale documented afterwards.
+C5-D09,3,4,4,0,,Nonblind; final numeric rating unchanged from initial round; final locator/rationale documented afterwards.
+C5-D10,4,4,4,0,,Nonblind; final numeric rating unchanged from initial round; final locator/rationale documented afterwards.
+C5-D11,5,4,4,0,,Nonblind; final numeric rating unchanged from initial round; final locator/rationale documented afterwards.
+C5-D12,5,4,4,0,,Nonblind; final numeric rating unchanged from initial round; final locator/rationale documented afterwards.
+C5-D13,5,3,4,1,,Nonblind; final rating changed after agreement results; final locator/rationale documented afterwards.
+C5-D14,5,4,4,0,,Nonblind; final numeric rating unchanged from initial round; final locator/rationale documented afterwards.
+C5-D15,5,4,4,0,,Nonblind; final numeric rating unchanged from initial round; final locator/rationale documented afterwards.

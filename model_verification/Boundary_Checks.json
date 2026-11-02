@@ -1,0 +1,193 @@
+[
+  {
+    "Id": "FR01_capacity_boundary_utility",
+    "Note": "The admitted zero-survival boundary returns exact zero without stock projection.",
+    "Passed": true,
+    "Values": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "Id": "FR02_capacity_boundary_period",
+    "Note": "Full-period/raw parity at the same boundary.",
+    "Passed": true,
+    "Values": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "Id": "FR03_signed_fusion_invariance",
+    "Note": "All six permutations and 72 duplicate insertions preserve the finite residual.",
+    "Passed": true,
+    "Values": [
+      0.3333333333333333,
+      78
+    ]
+  },
+  {
+    "Id": "FR04_tiny_annual_rate",
+    "Note": "Tiny annual rates remain effective over long review intervals.",
+    "Passed": true,
+    "Values": [
+      0.6321205588285577
+    ]
+  },
+  {
+    "Id": "FR05_tiny_review_interval",
+    "Note": "Short-interval conversion does not collapse to zero.",
+    "Passed": true,
+    "Values": [
+      2.2314355131420977e-19
+    ]
+  },
+  {
+    "Id": "FR06_zero_rate",
+    "Note": "Exact zero endpoint.",
+    "Passed": true,
+    "Values": [
+      0
+    ]
+  },
+  {
+    "Id": "FR07_unit_rate",
+    "Note": "Exact unit endpoint.",
+    "Passed": true,
+    "Values": [
+      1
+    ]
+  },
+  {
+    "Id": "FR08_one_year_identity",
+    "Note": "One-year conversion preserves the input.",
+    "Passed": true,
+    "Values": [
+      0.1
+    ]
+  },
+  {
+    "Id": "FR09_converted_rate_guard",
+    "Note": "Admissibility uses the accurately converted review rate.",
+    "Passed": true,
+    "Values": [
+      1.3321205588285576
+    ]
+  },
+  {
+    "Id": "FR10_certain_harm",
+    "Note": "Certain harm rejects every tolerance below one.",
+    "Passed": true,
+    "Values": [
+      1,
+      1,
+      1,
+      0.9999999999999999
+    ]
+  },
+  {
+    "Id": "FR11_zero_probability_safe_scenario",
+    "Note": "A zero-probability safe scenario cannot destroy the certain-harm endpoint.",
+    "Passed": true,
+    "Values": [
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "Id": "FR12_zero_harm",
+    "Note": "Exact no-event endpoint.",
+    "Passed": true,
+    "Values": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "Id": "FR13_near_threshold_hill",
+    "Note": "Adjacent strengths agree with an independent high-precision reference.",
+    "Passed": true,
+    "Values": [
+      0.8454879170168209
+    ]
+  },
+  {
+    "Id": "FR14_hill_unit_invariance",
+    "Note": "Exact power-of-two unit rescaling preserves the log ratio.",
+    "Passed": true,
+    "Values": [
+      0.9020706064160199,
+      0.9020706064160199
+    ]
+  },
+  {
+    "Id": "FR15_above_floor_tradeoff",
+    "Note": "A binding critical floor does not prohibit an above-floor tradeoff.",
+    "Passed": true,
+    "Values": [
+      0.6,
+      0.6
+    ]
+  },
+  {
+    "Id": "FR16_critical_breach_veto",
+    "Note": "A higher aggregate cannot compensate for a critical-floor breach.",
+    "Passed": true,
+    "Values": [
+      0.695
+    ]
+  },
+  {
+    "Id": "FR17_valid_signal_gain",
+    "Note": "Exact no-error reference.",
+    "Passed": true,
+    "Values": [
+      0.004455445544554459
+    ]
+  },
+  {
+    "Id": "FR18_error_salience_counterexample",
+    "Note": "Error can raise salience in the presence of a valid signal; no general noise-monotonicity theorem.",
+    "Passed": true,
+    "Values": [
+      0.013756613756613759
+    ]
+  },
+  {
+    "Id": "FR19_pure_error_erosion",
+    "Note": "With zero valid signal, unrecognized error cannot build capacity.",
+    "Passed": true,
+    "Values": [
+      -0.0020000000000000018
+    ]
+  },
+  {
+    "Id": "FR20_taxonomy_counterexample",
+    "Note": "Splitting a zero-relevance capacity with split weights need not change the learning threshold.",
+    "Passed": true,
+    "Values": [
+      0.24000000000000002,
+      0.24000000000000002
+    ]
+  },
+  {
+    "Id": "FR21_zero_signal_validity",
+    "Note": "Noise-free zero evidence has validity zero and no learning.",
+    "Passed": true,
+    "Values": [
+      0,
+      0,
+      0.29556
+    ]
+  }
+]

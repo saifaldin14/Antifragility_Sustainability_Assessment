@@ -1,0 +1,312 @@
+{
+  "paired_cells": 75,
+  "case_clusters": 5,
+  "first_round": {
+    "ordinal_alpha": 0.38907622073303816,
+    "quadratic_kappa": 0.48177006762716845,
+    "linear_kappa": 0.25110132158590304,
+    "exact_agreements": 20,
+    "within_one_category": 62,
+    "mean_second_minus_first": -0.7733333333333333,
+    "marginal_chance_exact": 0.2442666666666667,
+    "marginal_chance_within_one": 0.6682666666666667,
+    "cell_bootstrap_alpha": {
+      "percentile_95": [
+        0.18770335088007303,
+        0.5401066798059057
+      ],
+      "defined_resamples": 2000,
+      "undefined_resamples": 0,
+      "method": "2000 seeded percentile resamples",
+      "resampling_unit": "cell",
+      "seed": 20261019
+    },
+    "cell_bootstrap_quadratic_kappa": {
+      "percentile_95": [
+        0.35008033658381854,
+        0.5919808854600217
+      ],
+      "defined_resamples": 2000,
+      "undefined_resamples": 0,
+      "method": "2000 seeded percentile resamples",
+      "resampling_unit": "cell",
+      "seed": 20261019
+    },
+    "seeded_case_bootstrap_alpha": {
+      "percentile_95": [
+        -0.20994437832381735,
+        0.5943069167506223
+      ],
+      "defined_resamples": 2000,
+      "undefined_resamples": 0,
+      "method": "2000 seeded percentile resamples",
+      "resampling_unit": "case",
+      "seed": 20261019
+    },
+    "exact_case_bootstrap_alpha": {
+      "percentile_95": [
+        -0.18050088731946135,
+        0.5943069167506223
+      ],
+      "defined_resamples": 3125,
+      "undefined_resamples": 0,
+      "method": "exact ordered case resamples",
+      "resampling_unit": "case",
+      "seed": null
+    },
+    "by_case": {
+      "C1": {
+        "ordinal_alpha": 0.5505826927845276,
+        "quadratic_kappa": 0.7914032869785081,
+        "exact_agreements": 4,
+        "second_rater_distinct_levels": 5
+      },
+      "C2": {
+        "ordinal_alpha": -0.0826443095306928,
+        "quadratic_kappa": 0.09999999999999998,
+        "exact_agreements": 6,
+        "second_rater_distinct_levels": 3
+      },
+      "C3": {
+        "ordinal_alpha": -0.24542635658914724,
+        "quadratic_kappa": -0.055276381909547645,
+        "exact_agreements": 5,
+        "second_rater_distinct_levels": 4
+      },
+      "C4": {
+        "ordinal_alpha": -0.40695111111111104,
+        "quadratic_kappa": 0.06528189910979232,
+        "exact_agreements": 3,
+        "second_rater_distinct_levels": 3
+      },
+      "C5": {
+        "ordinal_alpha": -0.5770299145299145,
+        "quadratic_kappa": -0.07843137254901933,
+        "exact_agreements": 2,
+        "second_rater_distinct_levels": 2
+      }
+    },
+    "by_dimension": {
+      "D01": {
+        "ordinal_alpha": -0.125,
+        "quadratic_kappa": -0.19047619047619024
+      },
+      "D02": {
+        "ordinal_alpha": -0.6448275862068966,
+        "quadratic_kappa": 0.03508771929824561
+      },
+      "D03": {
+        "ordinal_alpha": 0.4792857142857143,
+        "quadratic_kappa": 0.48275862068965514
+      },
+      "D04": {
+        "ordinal_alpha": 0.44199999999999995,
+        "quadratic_kappa": 0.5283018867924529
+      },
+      "D05": {
+        "ordinal_alpha": 0.952,
+        "quadratic_kappa": 0.8780487804878049
+      },
+      "D06": {
+        "ordinal_alpha": 0.44528301886792454,
+        "quadratic_kappa": 0.5
+      },
+      "D07": {
+        "ordinal_alpha": 0.7503225806451613,
+        "quadratic_kappa": 0.736842105263158
+      },
+      "D08": {
+        "ordinal_alpha": 0.4634615384615385,
+        "quadratic_kappa": 0.44444444444444464
+      },
+      "D09": {
+        "ordinal_alpha": 0.4083916083916084,
+        "quadratic_kappa": 0.36363636363636376
+      },
+      "D10": {
+        "ordinal_alpha": 1.0,
+        "quadratic_kappa": 1.0
+      },
+      "D11": {
+        "ordinal_alpha": 0.42553191489361697,
+        "quadratic_kappa": 0.5
+      },
+      "D12": {
+        "ordinal_alpha": 0.17200000000000004,
+        "quadratic_kappa": 0.38596491228070184
+      },
+      "D13": {
+        "ordinal_alpha": 0.124,
+        "quadratic_kappa": 0.09090909090909083
+      },
+      "D14": {
+        "ordinal_alpha": 0.6579999999999999,
+        "quadratic_kappa": 0.6666666666666667
+      },
+      "D15": {
+        "ordinal_alpha": -0.19999999999999996,
+        "quadratic_kappa": 0.2857142857142859
+      }
+    }
+  },
+  "final_round": {
+    "ordinal_alpha": 0.44386377094485574,
+    "quadratic_kappa": 0.5119604069287875,
+    "linear_kappa": 0.31421446384039897,
+    "exact_agreements": 28,
+    "within_one_category": 67,
+    "mean_second_minus_first": -0.38666666666666666,
+    "marginal_chance_exact": 0.2773333333333333,
+    "marginal_chance_within_one": 0.7308444444444444,
+    "cell_bootstrap_alpha": {
+      "percentile_95": [
+        0.23470257232335023,
+        0.6105870889652918
+      ],
+      "defined_resamples": 2000,
+      "undefined_resamples": 0,
+      "method": "2000 seeded percentile resamples",
+      "resampling_unit": "cell",
+      "seed": 20261019
+    },
+    "cell_bootstrap_quadratic_kappa": {
+      "percentile_95": [
+        0.34314659366166633,
+        0.644788548787627
+      ],
+      "defined_resamples": 2000,
+      "undefined_resamples": 0,
+      "method": "2000 seeded percentile resamples",
+      "resampling_unit": "cell",
+      "seed": 20261019
+    },
+    "seeded_case_bootstrap_alpha": {
+      "percentile_95": [
+        -0.22533863360729378,
+        0.6795442723100535
+      ],
+      "defined_resamples": 2000,
+      "undefined_resamples": 0,
+      "method": "2000 seeded percentile resamples",
+      "resampling_unit": "case",
+      "seed": 20261019
+    },
+    "exact_case_bootstrap_alpha": {
+      "percentile_95": [
+        -0.21607029795158295,
+        0.6795442723100535
+      ],
+      "defined_resamples": 3125,
+      "undefined_resamples": 0,
+      "method": "exact ordered case resamples",
+      "resampling_unit": "case",
+      "seed": null
+    },
+    "by_case": {
+      "C1": {
+        "ordinal_alpha": 0.6257816640169581,
+        "quadratic_kappa": 0.7865459249676584,
+        "exact_agreements": 7,
+        "second_rater_distinct_levels": 5
+      },
+      "C2": {
+        "ordinal_alpha": -0.11547619047619051,
+        "quadratic_kappa": 0.0,
+        "exact_agreements": 8,
+        "second_rater_distinct_levels": 1
+      },
+      "C3": {
+        "ordinal_alpha": -0.11691024920367243,
+        "quadratic_kappa": -0.0439560439560438,
+        "exact_agreements": 5,
+        "second_rater_distinct_levels": 4
+      },
+      "C4": {
+        "ordinal_alpha": -0.2657549857549857,
+        "quadratic_kappa": 0.02597402597402587,
+        "exact_agreements": 6,
+        "second_rater_distinct_levels": 2
+      },
+      "C5": {
+        "ordinal_alpha": -0.5466666666666666,
+        "quadratic_kappa": -0.059479553903345694,
+        "exact_agreements": 2,
+        "second_rater_distinct_levels": 2
+      }
+    },
+    "by_dimension": {
+      "D01": {
+        "ordinal_alpha": -0.2250000000000001,
+        "quadratic_kappa": -0.4285714285714286
+      },
+      "D02": {
+        "ordinal_alpha": -0.4928571428571429,
+        "quadratic_kappa": -0.15384615384615397
+      },
+      "D03": {
+        "ordinal_alpha": 0.55,
+        "quadratic_kappa": 0.5454545454545454
+      },
+      "D04": {
+        "ordinal_alpha": 0.55,
+        "quadratic_kappa": 0.5454545454545454
+      },
+      "D05": {
+        "ordinal_alpha": 0.718,
+        "quadratic_kappa": 0.6666666666666667
+      },
+      "D06": {
+        "ordinal_alpha": 0.475,
+        "quadratic_kappa": 0.5454545454545456
+      },
+      "D07": {
+        "ordinal_alpha": 0.7503225806451613,
+        "quadratic_kappa": 0.7540983606557377
+      },
+      "D08": {
+        "ordinal_alpha": 0.6352941176470588,
+        "quadratic_kappa": 0.6000000000000001
+      },
+      "D09": {
+        "ordinal_alpha": 0.31599999999999995,
+        "quadratic_kappa": 0.22222222222222243
+      },
+      "D10": {
+        "ordinal_alpha": 0.5357142857142857,
+        "quadratic_kappa": 0.5
+      },
+      "D11": {
+        "ordinal_alpha": 0.509090909090909,
+        "quadratic_kappa": 0.5
+      },
+      "D12": {
+        "ordinal_alpha": 0.394,
+        "quadratic_kappa": 0.48275862068965525
+      },
+      "D13": {
+        "ordinal_alpha": 0.6352941176470588,
+        "quadratic_kappa": 0.5833333333333334
+      },
+      "D14": {
+        "ordinal_alpha": 0.778,
+        "quadratic_kappa": 0.7727272727272727
+      },
+      "D15": {
+        "ordinal_alpha": -0.27241379310344827,
+        "quadratic_kappa": 0.2028985507246378
+      }
+    }
+  },
+  "second_rater_revisions": 30,
+  "revisions_upward": 29,
+  "revisions_toward_first": 21,
+  "recorded_consensus_cells": 0,
+  "primary_uncertainty_method": "Exact enumeration of all 3,125 ordered five-case block resamples; final ordinal-alpha percentile interval.",
+  "sensitivity_uncertainty_methods": [
+    "Cell bootstrap",
+    "Seeded 2,000-resample case bootstrap"
+  ],
+  "uncertainty_limit": "Descriptive with five related purposive case clusters; enumeration does not establish nominal coverage or blinded reliability.",
+  "provenance": "Nonblind ratings; final second ratings revised after agreement results; rationales added afterwards.",
+  "interpretation": "Diagnostic integration judgments, not six-capacity observations or causal validation."
+}

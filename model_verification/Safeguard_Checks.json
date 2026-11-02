@@ -1,0 +1,570 @@
+[
+  {
+    "Id": "AC01_mixed_source_copy",
+    "Note": "Copies do not increase an original source's fixed contribution.",
+    "Passed": true,
+    "Values": [
+      0.4,
+      0.4
+    ]
+  },
+  {
+    "Id": "AC02_source_conflict",
+    "Note": "Conflicting source versions require reconciliation.",
+    "Passed": true,
+    "Values": []
+  },
+  {
+    "Id": "AC03_large_norm",
+    "Note": "Scaled norm avoids squaring overflow.",
+    "Passed": true,
+    "Values": [
+      1e+200
+    ]
+  },
+  {
+    "Id": "AC04_tiny_hill",
+    "Note": "Equal tiny strengths and scales give one half.",
+    "Passed": true,
+    "Values": [
+      0.5
+    ]
+  },
+  {
+    "Id": "AC05_large_hill",
+    "Note": "Log-ratio Hill remains finite at large strength.",
+    "Passed": true,
+    "Values": [
+      1
+    ]
+  },
+  {
+    "Id": "AC06_large_validity",
+    "Note": "Max-scaled validity does not overflow the denominator.",
+    "Passed": true,
+    "Values": [
+      0.5
+    ]
+  },
+  {
+    "Id": "AC07_risk_one_rejected",
+    "Note": "Upper bounds may equal one, risk tolerances may not.",
+    "Passed": true,
+    "Values": []
+  },
+  {
+    "Id": "AC08_risk_bound_one_valid",
+    "Note": "A valid bound of one fails a smaller valid tolerance.",
+    "Passed": true,
+    "Values": [
+      1
+    ]
+  },
+  {
+    "Id": "AC09_eta_zero",
+    "Note": "Do not divide by eta=0.",
+    "Passed": true,
+    "Values": []
+  },
+  {
+    "Id": "AC10_nonpositive_Qv",
+    "Note": "No positive gain when eta Qv is nonpositive and external change is zero.",
+    "Passed": true,
+    "Values": []
+  },
+  {
+    "Id": "AC11_unattainable_threshold",
+    "Note": "A threshold above one is not attainable retained learning.",
+    "Passed": true,
+    "Values": [
+      4.999999999999999
+    ]
+  },
+  {
+    "Id": "AC12_accuracy_denominator",
+    "Note": "Twenty rejected among twenty independently invalid lessons gives sensitivity one, not 0.2.",
+    "Passed": true,
+    "Values": [
+      1,
+      0.2
+    ]
+  },
+  {
+    "Id": "AC13_accuracy_unassessed",
+    "Note": "No invalid adjudicated lessons leaves sensitivity unassessed.",
+    "Passed": true,
+    "Values": []
+  },
+  {
+    "Id": "AC14_initial_performance",
+    "Note": "Later recovery does not retroactively protect the initial horizon.",
+    "Passed": true,
+    "Values": [
+      0.449,
+      0.46720855000871997
+    ]
+  },
+  {
+    "Id": "AC15_fixed_baseline_ratchet",
+    "Note": "Five locally tolerated losses cannot pass fixed-baseline horizon protection.",
+    "Passed": true,
+    "Values": [
+      0.65,
+      0.605
+    ]
+  },
+  {
+    "Id": "AC16_horizon_equality",
+    "Note": "Equality at the predeclared fixed-baseline tolerance is accepted.",
+    "Passed": true,
+    "Values": [
+      0.65,
+      0.64,
+      0.01
+    ]
+  },
+  {
+    "Id": "AC17_required_route_product",
+    "Note": "A missing required group route vetoes aggregate monitoring quality.",
+    "Passed": true,
+    "Values": [
+      0,
+      0
+    ]
+  },
+  {
+    "Id": "AC17_required_route_geometric",
+    "Note": "A missing required group route vetoes aggregate monitoring quality.",
+    "Passed": true,
+    "Values": [
+      0,
+      0
+    ]
+  },
+  {
+    "Id": "AC17_required_route_minimum",
+    "Note": "A missing required group route vetoes aggregate monitoring quality.",
+    "Passed": true,
+    "Values": [
+      0,
+      0
+    ]
+  },
+  {
+    "Id": "AC18_raw_projection",
+    "Note": "Export raw overshoots; projection is not physical path-safety evidence.",
+    "Passed": true,
+    "Values": [
+      1.56820855000872,
+      1,
+      1.32000157696,
+      1
+    ]
+  },
+  {
+    "Id": "AC19_generic_split_utility",
+    "Note": "Generic capacity utility still supports the split-component property.",
+    "Passed": true,
+    "Values": [
+      7
+    ]
+  },
+  {
+    "Id": "AC20_S_dimension",
+    "Note": "Invalid public inputs must raise a domain/dimension error before labels.",
+    "Passed": true,
+    "Values": []
+  },
+  {
+    "Id": "AC20_S_domain",
+    "Note": "Invalid public inputs must raise a domain/dimension error before labels.",
+    "Passed": true,
+    "Values": []
+  },
+  {
+    "Id": "AC20_weights_sum",
+    "Note": "Invalid public inputs must raise a domain/dimension error before labels.",
+    "Passed": true,
+    "Values": []
+  },
+  {
+    "Id": "AC20_weights_negative",
+    "Note": "Invalid public inputs must raise a domain/dimension error before labels.",
+    "Passed": true,
+    "Values": []
+  },
+  {
+    "Id": "AC20_threshold_nonfinite",
+    "Note": "Invalid public inputs must raise a domain/dimension error before labels.",
+    "Passed": true,
+    "Values": []
+  },
+  {
+    "Id": "AC20_critical_dimension",
+    "Note": "Invalid public inputs must raise a domain/dimension error before labels.",
+    "Passed": true,
+    "Values": []
+  },
+  {
+    "Id": "AC20_capacity_dimension",
+    "Note": "Invalid public inputs must raise a domain/dimension error before labels.",
+    "Passed": true,
+    "Values": []
+  },
+  {
+    "Id": "AC20_capacity_nonfinite",
+    "Note": "Invalid public inputs must raise a domain/dimension error before labels.",
+    "Passed": true,
+    "Values": []
+  },
+  {
+    "Id": "AC20_beta_sum",
+    "Note": "Invalid public inputs must raise a domain/dimension error before labels.",
+    "Passed": true,
+    "Values": []
+  },
+  {
+    "Id": "AC20_q_domain",
+    "Note": "Invalid public inputs must raise a domain/dimension error before labels.",
+    "Passed": true,
+    "Values": []
+  },
+  {
+    "Id": "AC20_eta_negative",
+    "Note": "Invalid public inputs must raise a domain/dimension error before labels.",
+    "Passed": true,
+    "Values": []
+  },
+  {
+    "Id": "AC20_S29",
+    "Note": "Invalid public inputs must raise a domain/dimension error before labels.",
+    "Passed": true,
+    "Values": []
+  },
+  {
+    "Id": "AC20_theta_domain",
+    "Note": "Invalid public inputs must raise a domain/dimension error before labels.",
+    "Passed": true,
+    "Values": []
+  },
+  {
+    "Id": "AC20_phi_domain",
+    "Note": "Invalid public inputs must raise a domain/dimension error before labels.",
+    "Passed": true,
+    "Values": []
+  },
+  {
+    "Id": "AC20_rho_nonfinite",
+    "Note": "Invalid public inputs must raise a domain/dimension error before labels.",
+    "Passed": true,
+    "Values": []
+  },
+  {
+    "Id": "AC20_monitoring_domain",
+    "Note": "Invalid public inputs must raise a domain/dimension error before labels.",
+    "Passed": true,
+    "Values": []
+  },
+  {
+    "Id": "AC20_accuracy_domain",
+    "Note": "Invalid public inputs must raise a domain/dimension error before labels.",
+    "Passed": true,
+    "Values": []
+  },
+  {
+    "Id": "AC20_Hill_domain",
+    "Note": "Invalid public inputs must raise a domain/dimension error before labels.",
+    "Passed": true,
+    "Values": []
+  },
+  {
+    "Id": "AC20_scale_zero",
+    "Note": "Invalid public inputs must raise a domain/dimension error before labels.",
+    "Passed": true,
+    "Values": []
+  },
+  {
+    "Id": "AC20_response_scale_zero",
+    "Note": "Invalid public inputs must raise a domain/dimension error before labels.",
+    "Passed": true,
+    "Values": []
+  },
+  {
+    "Id": "AC20_disturbance_negative",
+    "Note": "Invalid public inputs must raise a domain/dimension error before labels.",
+    "Passed": true,
+    "Values": []
+  },
+  {
+    "Id": "AC20_exposure_negative",
+    "Note": "Invalid public inputs must raise a domain/dimension error before labels.",
+    "Passed": true,
+    "Values": []
+  },
+  {
+    "Id": "AC20_monitoring_map_dimension",
+    "Note": "Invalid public inputs must raise a domain/dimension error before labels.",
+    "Passed": true,
+    "Values": []
+  },
+  {
+    "Id": "AC20_error_dimension",
+    "Note": "Invalid public inputs must raise a domain/dimension error before labels.",
+    "Passed": true,
+    "Values": []
+  },
+  {
+    "Id": "AC20_routine_missing",
+    "Note": "Invalid public inputs must raise a domain/dimension error before labels.",
+    "Passed": true,
+    "Values": []
+  },
+  {
+    "Id": "AC20_AI_dimension",
+    "Note": "Invalid public inputs must raise a domain/dimension error before labels.",
+    "Passed": true,
+    "Values": []
+  },
+  {
+    "Id": "AC20_AT_nonfinite",
+    "Note": "Invalid public inputs must raise a domain/dimension error before labels.",
+    "Passed": true,
+    "Values": []
+  },
+  {
+    "Id": "AC20_loss_negative",
+    "Note": "Invalid public inputs must raise a domain/dimension error before labels.",
+    "Passed": true,
+    "Values": []
+  },
+  {
+    "Id": "AC20_gain_dimension",
+    "Note": "Invalid public inputs must raise a domain/dimension error before labels.",
+    "Passed": true,
+    "Values": []
+  },
+  {
+    "Id": "AC20_external_performance",
+    "Note": "Invalid public inputs must raise a domain/dimension error before labels.",
+    "Passed": true,
+    "Values": []
+  },
+  {
+    "Id": "AC20_external_capacity_dimension",
+    "Note": "Invalid public inputs must raise a domain/dimension error before labels.",
+    "Passed": true,
+    "Values": []
+  },
+  {
+    "Id": "AC20_equity_negative",
+    "Note": "Invalid public inputs must raise a domain/dimension error before labels.",
+    "Passed": true,
+    "Values": []
+  },
+  {
+    "Id": "AC20_harm_map_negative",
+    "Note": "Invalid public inputs must raise a domain/dimension error before labels.",
+    "Passed": true,
+    "Values": []
+  },
+  {
+    "Id": "AC20_harm_limit_nonfinite",
+    "Note": "Invalid public inputs must raise a domain/dimension error before labels.",
+    "Passed": true,
+    "Values": []
+  },
+  {
+    "Id": "AC20_group_limit_nonfinite",
+    "Note": "Invalid public inputs must raise a domain/dimension error before labels.",
+    "Passed": true,
+    "Values": []
+  },
+  {
+    "Id": "AC20_group_mask_missing",
+    "Note": "Invalid public inputs must raise a domain/dimension error before labels.",
+    "Passed": true,
+    "Values": []
+  },
+  {
+    "Id": "AC20_route_policy_missing",
+    "Note": "Invalid public inputs must raise a domain/dimension error before labels.",
+    "Passed": true,
+    "Values": []
+  },
+  {
+    "Id": "AC20_temporary_policy_missing",
+    "Note": "Invalid public inputs must raise a domain/dimension error before labels.",
+    "Passed": true,
+    "Values": []
+  },
+  {
+    "Id": "AC20_cumulative_required_missing",
+    "Note": "Invalid public inputs must raise a domain/dimension error before labels.",
+    "Passed": true,
+    "Values": []
+  },
+  {
+    "Id": "AC20_irreversibility_nonfinite",
+    "Note": "Invalid public inputs must raise a domain/dimension error before labels.",
+    "Passed": true,
+    "Values": []
+  },
+  {
+    "Id": "AC20_EC_nonfinite",
+    "Note": "Invalid public inputs must raise a domain/dimension error before labels.",
+    "Passed": true,
+    "Values": []
+  },
+  {
+    "Id": "AC21_classifier_0_NaN",
+    "Note": "No nonfinite scalar may enter a favourable classification.",
+    "Passed": true,
+    "Values": []
+  },
+  {
+    "Id": "AC21_classifier_1_NaN",
+    "Note": "No nonfinite scalar may enter a favourable classification.",
+    "Passed": true,
+    "Values": []
+  },
+  {
+    "Id": "AC21_classifier_2_NaN",
+    "Note": "No nonfinite scalar may enter a favourable classification.",
+    "Passed": true,
+    "Values": []
+  },
+  {
+    "Id": "AC21_classifier_3_NaN",
+    "Note": "No nonfinite scalar may enter a favourable classification.",
+    "Passed": true,
+    "Values": []
+  },
+  {
+    "Id": "AC21_classifier_4_NaN",
+    "Note": "No nonfinite scalar may enter a favourable classification.",
+    "Passed": true,
+    "Values": []
+  },
+  {
+    "Id": "AC21_classifier_5_NaN",
+    "Note": "No nonfinite scalar may enter a favourable classification.",
+    "Passed": true,
+    "Values": []
+  },
+  {
+    "Id": "AC21_classifier_6_NaN",
+    "Note": "No nonfinite scalar may enter a favourable classification.",
+    "Passed": true,
+    "Values": []
+  },
+  {
+    "Id": "AC21_classifier_0_PosInf",
+    "Note": "No nonfinite scalar may enter a favourable classification.",
+    "Passed": true,
+    "Values": []
+  },
+  {
+    "Id": "AC21_classifier_1_PosInf",
+    "Note": "No nonfinite scalar may enter a favourable classification.",
+    "Passed": true,
+    "Values": []
+  },
+  {
+    "Id": "AC21_classifier_2_PosInf",
+    "Note": "No nonfinite scalar may enter a favourable classification.",
+    "Passed": true,
+    "Values": []
+  },
+  {
+    "Id": "AC21_classifier_3_PosInf",
+    "Note": "No nonfinite scalar may enter a favourable classification.",
+    "Passed": true,
+    "Values": []
+  },
+  {
+    "Id": "AC21_classifier_4_PosInf",
+    "Note": "No nonfinite scalar may enter a favourable classification.",
+    "Passed": true,
+    "Values": []
+  },
+  {
+    "Id": "AC21_classifier_5_PosInf",
+    "Note": "No nonfinite scalar may enter a favourable classification.",
+    "Passed": true,
+    "Values": []
+  },
+  {
+    "Id": "AC21_classifier_6_PosInf",
+    "Note": "No nonfinite scalar may enter a favourable classification.",
+    "Passed": true,
+    "Values": []
+  },
+  {
+    "Id": "AC21_classifier_0_NegInf",
+    "Note": "No nonfinite scalar may enter a favourable classification.",
+    "Passed": true,
+    "Values": []
+  },
+  {
+    "Id": "AC21_classifier_1_NegInf",
+    "Note": "No nonfinite scalar may enter a favourable classification.",
+    "Passed": true,
+    "Values": []
+  },
+  {
+    "Id": "AC21_classifier_2_NegInf",
+    "Note": "No nonfinite scalar may enter a favourable classification.",
+    "Passed": true,
+    "Values": []
+  },
+  {
+    "Id": "AC21_classifier_3_NegInf",
+    "Note": "No nonfinite scalar may enter a favourable classification.",
+    "Passed": true,
+    "Values": []
+  },
+  {
+    "Id": "AC21_classifier_4_NegInf",
+    "Note": "No nonfinite scalar may enter a favourable classification.",
+    "Passed": true,
+    "Values": []
+  },
+  {
+    "Id": "AC21_classifier_5_NegInf",
+    "Note": "No nonfinite scalar may enter a favourable classification.",
+    "Passed": true,
+    "Values": []
+  },
+  {
+    "Id": "AC21_classifier_6_NegInf",
+    "Note": "No nonfinite scalar may enter a favourable classification.",
+    "Passed": true,
+    "Values": []
+  },
+  {
+    "Id": "AC22_dot_dimension",
+    "Note": "A trailing dot-product entry cannot be ignored.",
+    "Passed": true,
+    "Values": []
+  },
+  {
+    "Id": "AC23_update_domain",
+    "Note": "The boundedness theorem is not applied outside its parameter domain.",
+    "Passed": true,
+    "Values": []
+  },
+  {
+    "Id": "AC24_converted_S29",
+    "Note": "Annual admissibility does not replace review-interval admissibility.",
+    "Passed": true,
+    "Values": []
+  },
+  {
+    "Id": "AC25_feedback_map_parity",
+    "Note": "The cached fixed-forcing capacity map agrees with the full period implementation.",
+    "Passed": true,
+    "Values": [
+      0
+    ]
+  }
+]
