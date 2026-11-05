@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite it using the metadata from this file."
+title: "Code and data for: Modelling Antifragility in Sustainability Assessment: A Protected Attribution Rule for Retained Capability Gain"
+type: software
+authors:
+  - family-names: Mohamed
+    given-names: Hanan H. A.
+    orcid: "https://orcid.org/0009-0002-8856-5964"
+    affiliation: University of Waterloo
+  - family-names: Ali
+    given-names: Saif Al-Din
+    orcid: "https://orcid.org/0009-0002-5433-9272"
+    affiliation: University of Waterloo
+version: 1.0.0
+license: MIT
+repository-code: "https://github.com/saifaldin14/Antifragility_Sustainability_Assessment"
