@@ -1,0 +1,5 @@
+convention,design,disturbance,social_performance,group_harm,capacity_index,reversibility,reversibility_floor,latent_class,evidence_status
+capped,A,1.5,0.47733476651806506,0.44999999999999996,0.36271811157010597,0.3542583245154929,0.3,Unacceptable,NotAssessed_IllustrativeSimulation
+capped,B,1.5,0.5344736740409581,0.44999999999999996,0.401347218566525,0.38776346960714997,0.3,Unacceptable,NotAssessed_IllustrativeSimulation
+uncapped,A,4.0,0.35249199805798237,1.2,0.3627454071609349,0.3542732038805722,0.3,Unacceptable,NotAssessed_IllustrativeSimulation
+uncapped,B,4.0,0.40992514033267075,1.2,0.40655771456652495,0.3929739656071499,0.3,Unacceptable,NotAssessed_IllustrativeSimulation

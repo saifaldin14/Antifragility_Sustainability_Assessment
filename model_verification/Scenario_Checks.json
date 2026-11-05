@@ -1,0 +1,305 @@
+[
+  {
+    "Id": "SC01",
+    "Note": "Valid routine learning remains in the no-disturbance arm.",
+    "Passed": true,
+    "Values": [
+      0.5,
+      0.07620480000000002,
+      0.39839912106666664
+    ]
+  },
+  {
+    "Id": "SC02",
+    "Note": "Learning equally in both arms receives no disturbance credit.",
+    "Passed": true,
+    "Values": [
+      0,
+      0.07620480000000002
+    ]
+  },
+  {
+    "Id": "SC03",
+    "Note": "Routine learning changes the comparator; these are not fitted effects.",
+    "Passed": true,
+    "Values": [
+      0.42016734208,
+      0.39839912106666664,
+      0.021768221013333366,
+      0.3919384055466667
+    ]
+  },
+  {
+    "Id": "SC04",
+    "Note": "For this finite error law, coupling changes contrast variance, not its expected value; it does not identify a real counterfactual.",
+    "Passed": true,
+    "Values": [
+      0.021346572784184347,
+      0.02134657278418435,
+      1.0652342491734835e-05,
+      2.958650168425692e-05
+    ]
+  },
+  {
+    "Id": "SC05",
+    "Note": "Aggregate-safe concentrated harm is infeasible.",
+    "Passed": true,
+    "Values": [
+      0.75,
+      0,
+      1
+    ]
+  },
+  {
+    "Id": "SC06",
+    "Note": "A higher-value group-unsafe alternative cannot win.",
+    "Passed": true,
+    "Values": [
+      1
+    ]
+  },
+  {
+    "Id": "SC07",
+    "Note": "No group-safe alternative requires redesign or rejection.",
+    "Passed": true,
+    "Values": [
+      -1
+    ]
+  },
+  {
+    "Id": "SC08",
+    "Note": "Exact finite-law boundary, not validation of estimated risks.",
+    "Passed": true,
+    "Values": [
+      0,
+      0.25,
+      0.25
+    ]
+  },
+  {
+    "Id": "SC09",
+    "Note": "Marginal group budgets do not substitute for the joint budget.",
+    "Passed": true,
+    "Values": [
+      0.125,
+      0.125,
+      0.25
+    ]
+  },
+  {
+    "Id": "SC10",
+    "Note": "A point estimate cannot replace a required conservative uncertainty bound.",
+    "Passed": true,
+    "Values": [
+      0.08,
+      0.12,
+      0.1
+    ]
+  },
+  {
+    "Id": "SC11",
+    "Note": "Review-date recovery cannot erase a prohibited temporary threshold breach.",
+    "Passed": true,
+    "Values": [
+      0.39,
+      0.9720855000871992,
+      0.45
+    ]
+  },
+  {
+    "Id": "SC12",
+    "Note": "Period-integrated burdens, not endpoint rates, consume a cumulative budget.",
+    "Passed": true,
+    "Values": [
+      0.6,
+      0.6,
+      1.2,
+      1
+    ]
+  },
+  {
+    "Id": "SC13",
+    "Note": "Rising mean capacity cannot override a declared critical-capacity floor.",
+    "Passed": true,
+    "Values": [
+      0.5,
+      0.5499999999999999,
+      0.5,
+      0.30000000000000004,
+      0.4
+    ]
+  },
+  {
+    "Id": "SC14",
+    "Note": "Above the predeclared floor, component trade-offs remain allowed; not every capacity is required to increase.",
+    "Passed": true,
+    "Values": [
+      0.30000000000000004,
+      0.25,
+      3
+    ]
+  },
+  {
+    "Id": "SC15",
+    "Note": "Capacity-floor equality is accepted and a smaller value rejected.",
+    "Passed": true,
+    "Values": [
+      0.4,
+      0.3999
+    ]
+  },
+  {
+    "Id": "SC16",
+    "Note": "Unit changes and redundant records preserve canonical evidence.",
+    "Passed": true,
+    "Values": [
+      0.2,
+      0.2,
+      0.2
+    ]
+  },
+  {
+    "Id": "SC17",
+    "Note": "Unfused duplication deliberately fails invariance; independent canonical dimensions are not interchangeable.",
+    "Passed": true,
+    "Values": [
+      0.2,
+      0.3333333333333334
+    ]
+  },
+  {
+    "Id": "SC18",
+    "Note": "Invalid reference units and missing canonical-channel declarations are explicit errors.",
+    "Passed": true,
+    "Values": []
+  },
+  {
+    "Id": "SC19",
+    "Note": "Every tested monitoring form preserves a missing-channel veto.",
+    "Passed": true,
+    "Values": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "Id": "SC20_product",
+    "Note": "Structural comparison: gains and magnitudes depend on the aggregation form.",
+    "Passed": true,
+    "Values": [
+      0.4536,
+      0.42016734208,
+      0.39839912106666664,
+      0.021768221013333366
+    ]
+  },
+  {
+    "Id": "SC20_geometric",
+    "Note": "Structural comparison: gains and magnitudes depend on the aggregation form.",
+    "Passed": true,
+    "Values": [
+      0.7683474989924965,
+      0.44023967138374875,
+      0.40151638029668835,
+      0.03872329108706041
+    ]
+  },
+  {
+    "Id": "SC20_minimum",
+    "Note": "Structural comparison: gains and magnitudes depend on the aggregation form.",
+    "Passed": true,
+    "Values": [
+      0.5599999999999999,
+      0.42695276800000004,
+      0.39945290666666666,
+      0.027499861333333375
+    ]
+  },
+  {
+    "Id": "SC21_hill",
+    "Note": "The convexity theorem is restricted to its Hill specification and stated conditions.",
+    "Passed": true,
+    "Values": [
+      0.8666666666666667,
+      0.42016734208,
+      0.39839912106666664,
+      0.021768221013333366
+    ]
+  },
+  {
+    "Id": "SC21_linear_capped",
+    "Note": "The convexity theorem is restricted to its Hill specification and stated conditions.",
+    "Passed": true,
+    "Values": [
+      1,
+      0.42461770239999996,
+      0.4038490738163178,
+      0.02076862858368217
+    ]
+  },
+  {
+    "Id": "SC22",
+    "Note": "A coupled resource shortfall reduces connectivity and retention in this specified scenario.",
+    "Passed": true,
+    "Values": [
+      0.42016734208,
+      0.3930911375466667
+    ]
+  },
+  {
+    "Id": "SC23",
+    "Note": "Exogenously available non-proportional response options are not an endogenous theory of institutional transformation.",
+    "Passed": true,
+    "Values": [
+      0.2910427500435996,
+      0.0727606875108999,
+      0.2972490504132897,
+      -0.04053396141999406,
+      0.30000000000000004
+    ]
+  },
+  {
+    "Id": "SC24",
+    "Note": "Misclassified validity can reverse a predicted change; observed capability contrasts require independent measurement.",
+    "Passed": true,
+    "Values": [
+      -0.09599999999999997,
+      0.14400000000000002
+    ]
+  },
+  {
+    "Id": "SC25",
+    "Note": "Invalid risks, negative burdens and incomplete floor policies cannot silently pass.",
+    "Passed": true,
+    "Values": []
+  },
+  {
+    "Id": "SC26",
+    "Note": "Two-group selection agrees with direct inequalities and independent ranking on the specified seeded test set.",
+    "Passed": true,
+    "Values": [
+      1000,
+      490,
+      579
+    ]
+  },
+  {
+    "Id": "SC27",
+    "Note": "The alternative selector also vetoes a prohibited cumulative or temporary path even when endpoint and harm-risk tests pass.",
+    "Passed": true,
+    "Values": [
+      1.2,
+      1
+    ]
+  },
+  {
+    "Id": "SC28",
+    "Note": "Common integrated burdens remain in both arms; only the disturbance-linked increment is removed.",
+    "Passed": true,
+    "Values": [
+      0.9,
+      0.8
+    ]
+  }
+]

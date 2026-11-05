@@ -1,0 +1,16 @@
+dimension_id,dimension,C1,C2,C3,C4,C5,source_id,locator
+D01,Economic,5,4,3,4,5,T1,Printed109 PDF122
+D02,Social,4,5,4,5,6,T1,Printed109 PDF122
+D03,Environmental,5,4,3,4,5,T1,Printed109 PDF122
+D04,Temporal,5,4,3,4,5,T1,Printed109 PDF122
+D05,Cultural,2,3,2,3,4,T1,Printed109 PDF122
+D06,Technological,6,4,3,5,5,T1,Printed109 PDF122
+D07,Institutional/Governance,5,3,2,4,5,T1,Printed109 PDF122
+D08,Spatial/Place,5,3,3,4,5,T1,Printed109 PDF122
+D09,Ethical/Moral,2,3,3,4,3,T1,Printed109 PDF122
+D10,Political,4,3,3,4,4,T1,Printed109 PDF122
+D11,Resilience/Adaptive Capacity,4,4,3,4,5,T1,Printed109 PDF122
+D12,Knowledge/Epistemological,5,4,3,5,6,T1,Printed109 PDF122
+D13,Health/Well-being,5,3,2,4,5,T1,Printed109 PDF122
+D14,Aesthetic/Experiential,2,4,3,4,6,T1,Printed109 PDF122
+D15,Interconnectivity/Systems Thinking,5,5,4,5,6,T1,Printed110 PDF123

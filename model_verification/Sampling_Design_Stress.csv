@@ -1,0 +1,5 @@
+sampling_design,draws,seed,all_reviews_gain,any_review_gain,positive_contrast,index_increase,protected_horizon,retained_horizon_gain,interpretation
+independent_lhs,512,20261024,82,111,497,191,226,76,"Artificial design stress, not empirical probabilities, priors or prevalence"
+positive_rank_q_theta,512,20261024,112,136,486,208,232,97,"Artificial design stress, not empirical probabilities, priors or prevalence"
+negative_rank_q_theta,512,20261024,61,77,504,177,220,60,"Artificial design stress, not empirical probabilities, priors or prevalence"
+coupled_resources,512,20261024,48,54,434,105,164,44,"Artificial design stress, not empirical probabilities, priors or prevalence"

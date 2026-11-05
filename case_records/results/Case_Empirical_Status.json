@@ -1,0 +1,114 @@
+{
+  "C1": {
+    "case": "evolv1",
+    "criteria": {
+      "G1": "P",
+      "G2": "E",
+      "G3": "U",
+      "G4": "P",
+      "G5": "U",
+      "G6": "P",
+      "G7": "U",
+      "G8": "E"
+    },
+    "criteria_not_fully_established": [
+      "G1",
+      "G3",
+      "G4",
+      "G5",
+      "G6",
+      "G7"
+    ],
+    "inference_status": "InsufficientForCausalTest"
+  },
+  "C2": {
+    "case": "Ahrens Street West",
+    "criteria": {
+      "G1": "U",
+      "G2": "P",
+      "G3": "U",
+      "G4": "U",
+      "G5": "U",
+      "G6": "U",
+      "G7": "U",
+      "G8": "E"
+    },
+    "criteria_not_fully_established": [
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "G5",
+      "G6",
+      "G7"
+    ],
+    "inference_status": "InsufficientForCausalTest"
+  },
+  "C3": {
+    "case": "One Hundred Victoria Street South",
+    "criteria": {
+      "G1": "P",
+      "G2": "E",
+      "G3": "U",
+      "G4": "U",
+      "G5": "U",
+      "G6": "U",
+      "G7": "U",
+      "G8": "E"
+    },
+    "criteria_not_fully_established": [
+      "G1",
+      "G3",
+      "G4",
+      "G5",
+      "G6",
+      "G7"
+    ],
+    "inference_status": "InsufficientForCausalTest"
+  },
+  "C4": {
+    "case": "Northfield Station Area",
+    "criteria": {
+      "G1": "P",
+      "G2": "P",
+      "G3": "U",
+      "G4": "U",
+      "G5": "U",
+      "G6": "P",
+      "G7": "U",
+      "G8": "E"
+    },
+    "criteria_not_fully_established": [
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "G5",
+      "G6",
+      "G7"
+    ],
+    "inference_status": "InsufficientForCausalTest"
+  },
+  "C5": {
+    "case": "Breithaupt Block",
+    "criteria": {
+      "G1": "P",
+      "G2": "E",
+      "G3": "U",
+      "G4": "P",
+      "G5": "U",
+      "G6": "P",
+      "G7": "U",
+      "G8": "E"
+    },
+    "criteria_not_fully_established": [
+      "G1",
+      "G3",
+      "G4",
+      "G5",
+      "G6",
+      "G7"
+    ],
+    "inference_status": "InsufficientForCausalTest"
+  }
+}
